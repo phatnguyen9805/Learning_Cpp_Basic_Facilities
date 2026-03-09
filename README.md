@@ -17,6 +17,7 @@ The C++ standard and the examples in this book are written using the basic sourc
 To use an extended character set for source code, a programming environment can map the extended character set into the basic source character set in one of several ways, for example, by using universal character names (§6.2.3.2).
 ### 6.2 Types
 #### 6.2.1 Fundamental types
+Arithmetic types (integral types (boolean, character, integer types), floating-point types), `void`, pointer types, reference types, user-defined types. 
 #### 6.2.2 Booleans
 #### 6.2.3 Character types
 - Signed and Unsigned characters

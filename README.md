@@ -2,8 +2,19 @@
 The C++ programming language - Part II: Basic Facilities
 ## 6 Types and Declarations
 ### 6.1 The ISO C++ Standard
+Each implementation must provide a specific, well-defined behavior for a construct and that behavior must be documented.
+
+When writing real-world programs, it is usually necessary to rely on implementation-defined behavior. 
+
+To maximize portability, it is wise to be explicit about what implementation-defined features we rely on and to isolate the more subtle examples in clearly marked sections of a program.
+
+It is worth spending considerable time and effort to ensure that a program does not use something deemed unspecified or undefined by the standard.
 #### 6.1.1 Implementations
+A C++ implementation can be either hosted or freestanding (§iso.17.6.1.3).
 #### 6.1.2 The basic source character set
+The C++ standard and the examples in this book are written using the basic source character set called ASCII.
+
+To use an extended character set for source code, a programming environment can map the extended character set into the basic source character set in one of several ways, for example, by using universal character names (§6.2.3.2).
 ### 6.2 Types
 #### 6.2.1 Fundamental types
 #### 6.2.2 Booleans

@@ -37,10 +37,10 @@ Arithmetic types (integral types (boolean, character, integer types), floating-p
 #### 6.3.3 Names
 - Keywords
 #### 6.3.4 Scope
-#### 6.2.5 Initialization
+#### 6.3.5 Initialization
 - Missing Initializers
 - Initializer Lists
-#### 6.2.6 Deducing a Type: auto and decltype()
+#### 6.3.6 Deducing a Type: auto and decltype()
 - The `auto` Type Specifier
 - `auto` and `{}`-lists
 - The `decltype()` Specifier
